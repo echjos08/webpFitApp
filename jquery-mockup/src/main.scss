@@ -1,0 +1,42 @@
+$primary-background: rgb(35, 34, 39);
+$elemenmt-background:rgb(87, 89, 109);
+$elemenmt-text-color: rgb(255,255,255);
+$monospace: "Courier New", Courier, monospace;
+
+header{
+    background: $primary-background;
+    margin-bottom: 10px;
+}
+body{
+    background: $primary-background;
+}
+.card{
+    background: $elemenmt-background;
+    color: $elemenmt-text-color;
+    .btn-primary{
+        font-family: $monospace;
+        background-color: rgb(126, 63, 63);
+        border: none;
+        
+    }
+    .btn-primary:hover{
+        background-color: rgb(83, 38, 38);
+    }
+    li{
+        color: black;
+    }
+    
+
+    h4{
+        text-align: center;
+    }
+    
+
+} 
+.jumbotron{
+    background: $elemenmt-background;
+    color: $elemenmt-text-color;
+}
+
+
+

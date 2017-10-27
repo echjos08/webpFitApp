@@ -1,0 +1,24 @@
+header {
+  background: #232227;
+  margin-bottom: 10px; }
+
+body {
+  background: #232227; }
+
+.card {
+  background: #57596d;
+  color: white; }
+  .card .btn-primary {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #7e3f3f;
+    border: none; }
+  .card .btn-primary:hover {
+    background-color: #532626; }
+  .card li {
+    color: black; }
+  .card h4 {
+    text-align: center; }
+
+.jumbotron {
+  background: #57596d;
+  color: white; }
